@@ -1,8 +1,11 @@
 #!/bin/env node 
 var connect = require('connect');
 var serveStatic = require('serve-static');
+var serveFavicon = require('serve-favicon');
 var compression = require('compress');
 var http = require('http');
+var util = require('util');
+var fs = require('fs');
 
 
 /**
@@ -75,8 +78,30 @@ var SampleApp = function() {
      *  the handlers.
      */
     self.initializeServer = function() {
-        self.app = connect().use(compression);
-        self.app = connect().use(serveStatic(__dirname + '/public'));
+        self.app = connect();
+        self.app.use(compression);
+        self.app.use(serveStatic(__dirname + '/public', {
+            'fallthrough': false
+        }));
+        self.app.use(serveFavicon(__dirname + '/public/favicon.ico'));
+        self.app.use(function onError(err, req, res, next) {
+            if (err) {               
+                if (err.status == 404) {
+                    fs.readFile(__dirname + '/public/404.html',function (err, data) {
+                        if(!err){
+                            res.writeHead(404, {'Content-Type': 'text/html','Content-Length':data.length});
+                            res.write(data);    
+                            res.end();
+                        } else {
+                            res.writeHead(500);
+                            res.end();
+                        } 
+                    });
+                } else {
+                    next();
+                }
+            }           
+        });
     };
 
 
