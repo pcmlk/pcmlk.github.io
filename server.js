@@ -83,7 +83,7 @@ var SampleApp = function() {
         self.app.use(serveStatic(__dirname + '/public', {
             'fallthrough': false
         }));
-        self.app.use(serveFavicon(__dirname + '/public/favicon.ico'));
+        self.app.use(serveFavicon(__dirname + '/public/icons/favicon.ico'));
         self.app.use(function onError(err, req, res, next) {
             if (err) {               
                 if (err.status == 404) {
