@@ -3,8 +3,6 @@ index.htm
 index.htm
 index_htm_files/1.png
 index_htm_files/1@2x.png
-index_htm_files/1123.png
-index_htm_files/1123@2x.png
 index_htm_files/212@2x.jpg
 index_htm_files/1163@2x.png
 index_htm_files/23.png
@@ -26,8 +24,6 @@ index_htm_files/1084@2x.png
 index_htm_files/1056.png
 index_htm_files/929.jpg
 index_htm_files/293.png
-index_htm_files/990.png
-index_htm_files/990@2x.png
 index_htm_files/618.jpg
 index_htm_files/619.jpg
 index_htm_files/620.jpg
@@ -60,10 +56,6 @@ index_htm_files/1116.jpg
 index_htm_files/1116@2x.jpg
 index_htm_files/1117.jpg
 index_htm_files/1117@2x.jpg
-index_htm_files/993.png
-index_htm_files/993@2x.png
-index_htm_files/1171.jpg
-index_htm_files/1171@2x.jpg
 index_htm_files/1172.jpg
 index_htm_files/1172@2x.jpg
 index_htm_files/50.png
@@ -128,6 +120,16 @@ index_htm_files/1159.jpg
 index_htm_files/1159@2x.jpg
 index_htm_files/1179.jpg
 index_htm_files/1179@2x.jpg
+index_htm_files/1181.jpg
+index_htm_files/1181@2x.jpg
+index_htm_files/1190.png
+index_htm_files/1190@2x.png
+index_htm_files/1193.png
+index_htm_files/1193@2x.png
+index_htm_files/1194.jpg
+index_htm_files/1194@2x.jpg
+index_htm_files/1197.png
+index_htm_files/1197@2x.png
 index_htm_files/progress.gif
 index_htm_files/mosiac_panel_conf.js
 index_htm_files/mosaic.1.0.1.min.js
