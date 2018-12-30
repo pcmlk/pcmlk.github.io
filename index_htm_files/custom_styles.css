@@ -1,8 +1,5 @@
-.Normal_Text {font-family:'Open Sans';font-weight:normal;font-style:normal;font-size:14px;text-decoration:none;color:#6C6C6C;letter-spacing:0em;}
-.Heading_1 {font-family:'Montserrat';font-weight:normal;font-style:normal;font-size:16px;text-decoration:none;color:#000000;letter-spacing:0em;}
-.Light_Heading_1 {color:#FFFFFF;}
-.Heading_2 {font-size:24px;}
-.Subheadline {font-family:'Montserrat';font-weight:normal;font-style:normal;font-size:14px;text-decoration:none;color:#E5404E;letter-spacing:0em;}
-.Logo_Big {font-family:'Syncopate Light';font-weight:300;font-style:normal;font-size:96px;text-decoration:none;color:#FFFFFF;letter-spacing:0em;}
-.Light_Text {color:#FFFFFF;}
-.Quote {font-family:'Open Sans';font-weight:normal;font-style:italic;font-size:24px;text-decoration:none;color:#FFFFFF;letter-spacing:0em;}
+.Normal_text {font-family:'Open Sans';font-weight:normal;font-style:normal;font-size:12px;text-decoration:none;color:#595959;letter-spacing:0em;}
+.Heading_1 {font-family:'Abel';font-weight:normal;font-style:normal;font-size:24px;text-decoration:none;color:#7F7F7F;letter-spacing:0.13em;}
+.Heading_2 {font-family:'Open Sans';font-weight:normal;font-style:normal;font-size:18px;text-decoration:none;color:#3D6BA9;letter-spacing:0em;}
+.Panel_text {font-size:11px;}
+.Light_Heading_1 {font-size:16px;color:#FFFFFF;}
